@@ -1,0 +1,20 @@
+ul {
+list-style-type: none;
+}
+
+li {
+color: green;
+display: flex;
+}
+
+li > div {
+flex: 0 0 50px;
+}
+
+li > div:nth-child(2) {
+flex: 0 0 100px;
+}
+
+.loss {
+color: red;
+}
